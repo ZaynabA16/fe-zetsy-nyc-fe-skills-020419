@@ -1,20 +1,38 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
-
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
-/* Write all remaining styles here */
+.wrapper .necklace{
+  border: 5px solid #9BACA6;
+  padding-top: 0px
+}
+.image{
+  border: 5px solid #9BACA6;
+}
+.image:hover{
+  border: 5px solid gray;
+}
+h2{
+  color: gray;
+}
+h1{
+  color: #9BACA6;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border-bottom-color: #9BACA6;
+  border-bottom-style: solid ;
+  border-bottom-width: 1px;
+}
+.copyright{
+  text-align: right;
+}
